@@ -1,7 +1,35 @@
 import React from 'react';
+import {
+  SidebarTitle,
+  SidebarContent,
+  SidebarLineThrough,
+  Container,
+  Background,
+  Progress,
+} from '../utils/SidebarUtils';
 
 const Skills = () => {
-  return <h1>Skills</h1>;
+  return (
+    <>
+      <SidebarTitle>Skills</SidebarTitle>
+      <SidebarLineThrough />
+      <SidebarContent>FRONT END</SidebarContent>
+      <Container>
+        <Background />
+        <Progress />
+      </Container>
+      <SidebarContent>BACK END</SidebarContent>
+      <Container>
+        <Background />
+        <Progress />
+      </Container>
+      <SidebarContent>WRITING</SidebarContent>
+      <Container>
+        <Background />
+        <Progress />
+      </Container>
+    </>
+  );
 };
 
 export default Skills;
