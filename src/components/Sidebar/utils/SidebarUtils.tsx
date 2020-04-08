@@ -28,7 +28,7 @@ export const Container = styled.div`
   margin: 0 auto;
 `;
 
-export const BaseBox = styled.div`
+const BaseBox = styled.div`
   height: 100%;
   position: absolute;
   left: 0;
