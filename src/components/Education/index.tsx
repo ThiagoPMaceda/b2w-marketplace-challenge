@@ -34,7 +34,7 @@ const EducationItemContainer = styled.div`
 
 const Education = () => {
   return (
-    <>
+    <div>
       <EducationItemContainer>
         <EducationTitle>Education</EducationTitle>
         <EducationLineThrough />
@@ -69,7 +69,7 @@ const Education = () => {
           ipsum est!
         </EducationParagraph>
       </EducationItemContainer>
-    </>
+    </div>
   );
 };
 
