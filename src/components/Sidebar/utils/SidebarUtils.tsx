@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const SidebarTitle = styled.h2`
   text-transform: uppercase;
   color: #fff;
+
+  @media (min-width: 1024px) {
+    margin-top: 75px;
+  }
 `;
 
 export const SidebarContent = styled.p`
@@ -19,6 +23,10 @@ export const SidebarLineThrough = styled.hr`
   border-top: 1px solid #ccc;
   margin: 1em auto;
   padding: 0;
+
+  @media (min-width: 1024px) {
+    margin: 0 auto;
+  }
 `;
 
 export const Container = styled.div`
