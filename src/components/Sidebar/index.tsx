@@ -11,6 +11,18 @@ const SidebarContainer = styled.div`
   flex-direction: column;
   text-align: center;
   padding-bottom: 80px;
+
+  @media (min-width: 600px) {
+    margin-top: 0px;
+  }
+
+  @media (min-width: 1024px) {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+
+    margin-top: -103px;
+    width: 420px;
+  }
 `;
 
 const Sidebar = () => {
