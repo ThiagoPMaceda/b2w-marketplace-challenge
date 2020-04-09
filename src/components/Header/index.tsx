@@ -8,6 +8,18 @@ const HeaderContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media (min-width: 600px) {
+    height: 1020px;
+  }
+
+  @media (min-width: 1024px) {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+
+    height: 750px;
+    width: 420px;
+  }
 `;
 
 const HeaderImg = styled.img`
