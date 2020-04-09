@@ -34,7 +34,7 @@ const WorkExperienceItemContainer = styled.div`
 
 const WorkExperience = () => {
   return (
-    <>
+    <div>
       <WorkExperienceTitle>Work Experience</WorkExperienceTitle>
       <WorkExperienceLineThrough />
       <WorkExperienceItemContainer>
@@ -69,7 +69,7 @@ const WorkExperience = () => {
           ipsum est!
         </WorkExperienceParagraph>
       </WorkExperienceItemContainer>
-    </>
+    </div>
   );
 };
 
