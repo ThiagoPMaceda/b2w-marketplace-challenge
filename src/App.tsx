@@ -3,7 +3,8 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
+import { Normalize } from 'styled-normalize';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -11,14 +12,24 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const GridWrapper = styled.div`
+  display: grid;
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+`;
+
 const App = () => {
   return (
     <>
+      <Normalize />
       <GlobalStyle />
-      <Header />
-      <Sidebar />
-      <WorkExperience />
-      <Education />
+      <GridWrapper>
+        <Header />
+        <Sidebar />
+        <WorkExperience />
+        <Education />
+      </GridWrapper>
     </>
   );
 };
