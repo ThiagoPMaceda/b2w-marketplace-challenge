@@ -20,7 +20,7 @@ const SidebarContainer = styled.div`
     grid-column: 1;
     grid-row: 2 / span 2;
 
-    margin-top: -103px;
+    margin-top: -193px;
     width: 420px;
   }
 `;
