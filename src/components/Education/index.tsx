@@ -30,6 +30,10 @@ const EducationParagraph = styled.p`
 
 const EducationItemContainer = styled.div`
   margin-bottom: 50px;
+
+  @media (min-width: 1024px) {
+    width: 450px;
+  }
 `;
 
 const Education = () => {
