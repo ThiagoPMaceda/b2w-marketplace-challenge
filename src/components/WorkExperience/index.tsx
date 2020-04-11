@@ -30,6 +30,10 @@ const WorkExperienceParagraph = styled.p`
 
 const WorkExperienceItemContainer = styled.div`
   margin-bottom: 50px;
+
+  @media (min-width: 1024px) {
+    width: 450px;
+  }
 `;
 
 const WorkExperience = () => {
