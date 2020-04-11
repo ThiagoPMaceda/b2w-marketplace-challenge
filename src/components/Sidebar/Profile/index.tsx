@@ -11,8 +11,8 @@ const Profile = () => {
       <SidebarTitle>Profile</SidebarTitle>
       <SidebarLineThrough />
       <SidebarContent>
-        27-year old web developer from Colorado Springs With 5+ years of work
-        experience in various fields.
+        27-year old web developer <br /> from Colorado Springs With <br /> 5+
+        years of work experience <br /> in various fields.
       </SidebarContent>
     </>
   );
