@@ -14,11 +14,13 @@ const SidebarContainer = styled.div`
 
   @media (min-width: 600px) {
     margin-top: 0px;
+    max-height: 940px;
   }
 
   @media (min-width: 1024px) {
     grid-column: 1;
     grid-row: 2 / span 2;
+    max-height: 100vh;
 
     margin-top: -193px;
     width: 420px;
