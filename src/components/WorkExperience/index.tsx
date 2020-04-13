@@ -15,6 +15,10 @@ const WorkExperienceLineThrough = styled.hr`
   border-top: 1px solid #000;
   margin: 0;
   padding: 0;
+
+  @media (min-width: 1440px) {
+    width: 80%;
+  }
 `;
 
 const WorkExperienceRole = styled.h3`
@@ -26,6 +30,10 @@ const WorkExperienceParagraph = styled.p`
   color: #000;
   line-height: 30px;
   font-weight: bold;
+
+  @media (min-width: 1440px) {
+    width: 70%;
+  }
 `;
 
 const WorkExperienceItemContainer = styled.div`
@@ -34,14 +42,19 @@ const WorkExperienceItemContainer = styled.div`
   @media (min-width: 1024px) {
     width: 450px;
   }
+
+  @media (min-width: 1440px) {
+    margin-left: 70px;
+    width: 100%;
+  }
 `;
 
 const WorkExperience = () => {
   return (
     <div>
-      <WorkExperienceTitle>Work Experience</WorkExperienceTitle>
-      <WorkExperienceLineThrough />
       <WorkExperienceItemContainer>
+        <WorkExperienceTitle>Work Experience</WorkExperienceTitle>
+        <WorkExperienceLineThrough />
         <WorkExperienceRole>Front End Developer @ Hillson</WorkExperienceRole>
         <WorkExperienceParagraph> January 2014 - </WorkExperienceParagraph>
         <WorkExperienceParagraph>
