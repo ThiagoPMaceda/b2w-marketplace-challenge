@@ -25,6 +25,14 @@ const SidebarContainer = styled.div`
     margin-top: -193px;
     width: 420px;
   }
+
+  @media (min-width: 1440px) {
+    grid-column: 1;
+    grid-row: 2;
+    max-height: 100vh;
+    margin-top: -13px;
+    width: 100%;
+  }
 `;
 
 const Sidebar = () => {
