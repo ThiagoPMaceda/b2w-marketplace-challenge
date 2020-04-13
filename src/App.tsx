@@ -17,6 +17,10 @@ const GridWrapper = styled.div`
   @media (min-width: 600px) {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media (min-width: 1440px) {
+    grid-template-columns: 30% 70%;
+  }
 `;
 
 const App = () => {
