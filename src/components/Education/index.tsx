@@ -15,6 +15,10 @@ const EducationLineThrough = styled.hr`
   border-top: 1px solid #000;
   margin: 0;
   padding: 0;
+
+  @media (min-width: 1440px) {
+    width: 80%;
+  }
 `;
 
 const EducationRole = styled.h3`
@@ -26,6 +30,10 @@ const EducationParagraph = styled.p`
   color: #000;
   line-height: 30px;
   font-weight: bold;
+
+  @media (min-width: 1440px) {
+    width: 70%;
+  }
 `;
 
 const EducationItemContainer = styled.div`
@@ -33,6 +41,11 @@ const EducationItemContainer = styled.div`
 
   @media (min-width: 1024px) {
     width: 450px;
+  }
+
+  @media (min-width: 1440px) {
+    margin-left: 70px;
+    width: 100%;
   }
 `;
 
