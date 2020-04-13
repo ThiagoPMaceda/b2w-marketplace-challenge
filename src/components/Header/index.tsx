@@ -20,6 +20,11 @@ const HeaderContainer = styled.div`
     height: 750px;
     width: 420px;
   }
+
+  @media (min-width: 1440px) {
+    grid-row: 1;
+    width: 100%;
+  }
 `;
 
 const HeaderImg = styled.img`
