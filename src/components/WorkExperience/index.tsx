@@ -1,9 +1,11 @@
 import React from 'react';
-import LineThrough from '../LineThrough';
-import Title from '../Title';
-import Role from '../Role';
-import Paragraph from '../Paragraph';
-import ItemContainer from '../ItemContainer';
+import {
+  ItemContainer,
+  Title,
+  LineThrough,
+  Role,
+  Paragraph,
+} from '../../styles/shared';
 
 const WorkExperience = () => {
   return (
