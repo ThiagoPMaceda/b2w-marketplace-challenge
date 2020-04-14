@@ -6,7 +6,7 @@ import {
   Container,
   Background,
   Progress,
-} from '../utils/SidebarUtils';
+} from '../styles';
 
 const Skills = () => {
   return (

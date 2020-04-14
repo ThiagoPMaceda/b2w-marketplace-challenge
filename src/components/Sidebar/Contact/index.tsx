@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  SidebarTitle,
-  SidebarContent,
-  SidebarLineThrough,
-} from '../utils/SidebarUtils';
+import { SidebarTitle, SidebarContent, SidebarLineThrough } from '../styles';
 
 const Contact = () => {
   return (
